@@ -1,0 +1,164 @@
+/* Sean Furlong's CSS file */
+/* Apostrophic Labs License v1.00
+This license can also be found at this permalink: https://www.fontsquirrel.com/license/Immortal */
+
+@font-face {font-family: 'immortal';
+  src: url(immortal-webfont.woff);
+  font-weight: normal;
+  font-style: normal;}
+
+/* body {
+  font-family: verdana, arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background: DarkOrange ;} */
+
+ body {
+  font-family: 'immortal', verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background: white url(images/marbbody.jpg) ;}
+
+h1, h2, h3 {font-family: georgia, garamond, serif;
+            font-weight: normal;}
+
+h1 {font-size: 160%;}
+
+h2 {font-size: 130%;}
+
+h3 {font-size: 120%;}
+
+h4 {font-size: 110%;}
+
+p, h1, h2, ol, ul {
+  margin-top: 3px;
+  margin-bottom: 1px;}
+
+ol {
+  padding-left:0;
+  margin-left: 30px;}
+
+img {
+  padding: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;}
+
+a {
+  color: #8b4513;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid #663399;
+  padding-bottom: 1px;}
+
+a:visited {color: #FFE4B5;}
+
+a:hover, a:focus, a:active {
+  background-color: #fdf5e6;
+  color: #cd853f;
+  border-bottom-color: #fdebcf;}
+
+div#wrapper {
+  width: 728px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #66cdaa;
+  background-image: url(images/green-bg.jpg);
+  background-repeat: repeat;
+  background-position: left top;
+  background-attachment: scroll;
+  border: 2px dotted black;}
+
+article {
+  float: left;
+  width: 500px;
+  padding-left: 10px;}
+
+nav {
+  float: right;
+  width: 200px;
+  padding-right: 5px;}
+
+nav ul {
+  list-style-type: none;
+  border: 1px solid #FFE4B5;
+  margin-left: 0;
+  padding-left: 5px;
+  border-bottom: none;
+  display: block;
+  line-height: 2;
+  height: 1%;}
+
+nav a {
+  display: block;
+  background: #668080;
+  padding-left: 1px;
+  line-height: 2;
+  border-bottom-color: #FFE4B5;
+  height: 1%;}
+
+nav a:hover {
+  background-color: white;}
+
+nav li {
+  display: inline;}
+
+table {
+  border: 1px solid black;}
+caption {
+  display: none;}
+
+thead {
+  color: white;
+  background-color: #BC8F8F;
+  text-align: left;}
+
+tbody {
+  font-family: Georgia, serif;
+  font-size: 90%;}
+
+header {
+  height: 90px;
+  margin-bottom: 2px;}
+
+header h1, header p {
+  text-indent: -9999999px;}
+
+body.home header {
+  background: white url(images/bannerhome.png) no-repeat;}
+
+body.about header {
+  background: white url(images/bookbanner.gif) no-repeat;
+  background-position: left bottom;}
+
+body.contact header {
+  background: black url(images/skullbanner.gif) no-repeat;
+  background-position: center;}
+
+body.services header {
+  background: white url(images/waterbanner.jpg) repeat;}
+
+footer {
+  clear: both;
+  padding: 10px;
+  font-size: 75%;
+  height: 1%;
+  background-color: #668080;
+  color: #ffffff;
+  border-top: 2px dotted #454545;}
+
+footer p {
+  margin-bottom: 0;}
+
+footer a:link {
+  color: #FFE4B5;}
+
+footer a:hover, footer a:focus, footer a:active {
+  background-color: transparent;
+  border: none;}

@@ -21,7 +21,7 @@ This license can also be found at this permalink: https://www.fontsquirrel.com/l
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background: white url(images/marbbody.jpg) ;}
+  background: white url(./images/marbbody.jpg) ;}
 
 h1, h2, h3 {font-family: georgia, garamond, serif;
             font-weight: normal;}
@@ -69,7 +69,7 @@ div#wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #66cdaa;
-  background-image: url(images/green-bg.jpg);
+  background-image: url(./images/green-bg.jpg);
   background-repeat: repeat;
   background-position: left top;
   background-attachment: scroll;
@@ -131,18 +131,18 @@ header h1, header p {
   text-indent: -9999999px;}
 
 body.home header {
-  background: white url(images/bannerhome.png) no-repeat;}
+  background: white url(./images/bannerhome.png) no-repeat;}
 
 body.about header {
-  background: white url(images/bookbanner.gif) no-repeat;
+  background: white url(./images/bookbanner.gif) no-repeat;
   background-position: left bottom;}
 
 body.contact header {
-  background: black url(images/skullbanner.gif) no-repeat;
+  background: black url(./images/skullbanner.gif) no-repeat;
   background-position: center;}
 
 body.services header {
-  background: white url(images/waterbanner.jpg) repeat;}
+  background: white url(./images/waterbanner.jpg) repeat;}
 
 footer {
   clear: both;

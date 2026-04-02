@@ -114,6 +114,12 @@ table {
 caption {
   display: none;}
 
+table, th, td {
+  border: 1px solid black;}
+
+table {
+  border-collapse: collapse:}
+
 thead {
   color: white;
   background-color: #BC8F8F;
